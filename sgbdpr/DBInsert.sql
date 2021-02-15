@@ -2,7 +2,7 @@
 -----------------------------------------------------
 
 
---6.Defini?i un subprogram stocat care s„ utilizeze un tip de colec?ie studiat. Apela?i subprogramul.
+--6.Defini?i un subprogram stocat care s√£ utilizeze un tip de colec?ie studiat. Apela?i subprogramul.
 
 --Pentru a determina cat de reusita a fost fiecare expozitie, ne dorim sa stim cate tablouri au fost
 --expuse in fiecare expozitie si cate dintre acestea au fost vandute. Acest lucru se va realiza prin
@@ -101,7 +101,7 @@ select * from exhibition_ado;
 
 -----------------------------------------------
 
---7. Defini?i un subprogram stocat care s„ utilizeze un tip de cursor studiat. Apela?i subprogramul.
+--7. Defini?i un subprogram stocat care s√£ utilizeze un tip de cursor studiat. Apela?i subprogramul.
 --Se doreste o statistica asupra artistilor. Pentru fiecare artist, afisati 
 --in ce curente artistice a creat si care sunt cele mai scumpe 3 tablouri 
 --ale sale.Tablourile trebuie afisate cu numar de ordine, in ordinea 
@@ -212,7 +212,7 @@ execute proc_ex7;
 -----------------------------------------------------
 
 
---8.Defini?i un subprogram stocat de tip func?ie care s„ utilizeze 3 dintre tabelele definite. 
+--8.Defini?i un subprogram stocat de tip func?ie care s√£ utilizeze 3 dintre tabelele definite. 
 
 --Se da numele unui vanzator si numele unei expozitii. Dorim sa aflam cat comision
 --a luat casa de vanzari prin care a fost vandut un tablou de catre acel vanzator 
@@ -274,9 +274,9 @@ end;
 
 ------------------------------------------
 --9. 
---Defini?i un subprogram stocat de tip procedur„ care s„ utilizeze 5 dintre 
---tabelele definite. Trata?i toate excep?iile care pot ap„rea. Apela?i subprogramul astfel 
---Ónc‚t s„ eviden?ia?i toate cazurile tratate. 
+--Defini?i un subprogram stocat de tip procedur√£ care s√£ utilizeze 5 dintre 
+--tabelele definite. Trata?i toate excep?iile care pot ap√£rea. Apela?i subprogramul astfel 
+--√Ænc√¢t s√£ eviden?ia?i toate cazurile tratate. 
 
 --Pentru a incuraja achizitiile, se organizeaza o tombola, iar unul dintre cumparatori va primi
 --un premiu surpriza. Primul cumparator (in ordine alfabetica) care locuieste in USA si care a
@@ -337,7 +337,7 @@ END;
 
 ------------------------------------------------------------
 --10
---Defini?i un trigger de tip LMD la nivel de comand„. Declan?a?i trigger-ul.
+--Defini?i un trigger de tip LMD la nivel de comand√£. Declan?a?i trigger-ul.
 
 --De regula, expozitiile se tin doar vineri, sambata si duminica, incepand cu orele 17:00.
 --In acest interval, nu sunt posibile modificari aduse acestui tabel, in schimb, in restul 
@@ -454,7 +454,7 @@ where price = (select max(price) from buying);
 
 --12. Defini?i un trigger de tip LDD. Declan?a?i trigger-ul
 --Ne dorim un trigger care sa se declanseze in momentul efectuarii de comenzi LDD asupra
---obiectelor din schema personal„. Vrem sa retinem numele bazei de date, userul, evenimentul
+--obiectelor din schema personal√£. Vrem sa retinem numele bazei de date, userul, evenimentul
 --efectuat, tipul si numele obiectului referit.
 
 
@@ -490,7 +490,7 @@ SELECT * FROM tabel;
 -----------------------------------------------------
 
 
---13.  Defini?i un pachet care s„ con?in„ toate obiectele definite Ón cadrul proiectului:
+--13.  Defini?i un pachet care s√£ con?in√£ toate obiectele definite √Æn cadrul proiectului:
 --Ne dorim un pachet care sa contina toate obiectele create anterior.
 
 
