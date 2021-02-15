@@ -5,6 +5,8 @@ A database designed in **SQL** using **Oracle SQL Developer** for The Faculty of
 This DB was designed for an auction house to help the buying process more easy. The are informations about paintings, buyers, sellers, purchases, artists, art movements
 and exhibitions.
 
+There are also some **PL/SQL** triggers, functions, packages and procedures used to solve some queries.
+
 ## Features:
 - 🟣 an artist could have worked in more artistic currents
 - 🟣 several paintings are exhibited at an exhibition and a painting can be exhibited at several exhibitions
