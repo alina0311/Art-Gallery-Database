@@ -223,7 +223,7 @@ insert into art_movement(movement_id, century, am_description, movement_name) va
 (3, '18', 'The utopian end toward which primitivists aspire usually lies in a notional "state of nature" in which their ancestors existed (chronological primitivism), or in the supposed natural condition of the peoples that live beyond civilization.', 'Primitivism');
 
 insert into art_movement(movement_id, century, am_description, movement_name) values
-(4, '20', 'In Cubist artwork, objects are analyzed, broken up and reassembled in an abstracted form—instead of depicting objects from a single viewpoint, the artist depicts the subject from a multitude of viewpoints to represent the subject in a greater context.', 'Cubism');
+(4, '20', 'In Cubist artwork, objects are analyzed, broken up and reassembled in an abstracted formÂ—instead of depicting objects from a single viewpoint, the artist depicts the subject from a multitude of viewpoints to represent the subject in a greater context.', 'Cubism');
 
 insert into art_movement(movement_id, century, am_description, movement_name) values
 (5, '20', 'The movement name is derived from the combination of the emotional intensity and self-denial of the German Expressionists with the anti-figurative aesthetic of the European abstract schools such as Futurism, the Bauhaus, and Synthetic Cubism.', 'Abstract Expressionism');
@@ -382,13 +382,13 @@ insert into painting(painting_id, painting_title, p_description, status, paintin
 (7, 'Woman III', ' Done between 1951 and 1953 in which the central theme was a woman.', 'available', 1953, 5);
 
 insert into painting(painting_id, painting_title, p_description, status, painting_year, artist_id) values
-(8, 'Le Reve', 'Is portraying his 22-year-old mistress Marie-Thér?se Walter.', 'available', 1932, 4);
+(8, 'Le Reve', 'Is portraying his 22-year-old mistress Marie-ThÃ©r?se Walter.', 'available', 1932, 4);
 
 insert into painting(painting_id, painting_title, p_description, status, painting_year, artist_id) values
 (9, 'Otahi', 'Also known as Alone.', 'available', 1893, 3);
 
 insert into painting(painting_id, painting_title, p_description, status, painting_year, artist_id) values
-(10, 'Nude, Green Leaves and Bust', 'Featuring his mistress Marie-Thér?se Walter.', 'available', 1932, 4);
+(10, 'Nude, Green Leaves and Bust', 'Featuring his mistress Marie-ThÃ©r?se Walter.', 'available', 1932, 4);
 
 insert into painting(painting_id, painting_title, p_description, status, painting_year, artist_id) values
 (11, 'Portrait of Adele Bloch-Bauer I', 'Also called The Lady in Gold or The Woman in Gold.', 'sold', 1907, 6);
@@ -430,7 +430,7 @@ insert into painting(painting_id, painting_title, p_description, painting_year, 
 (23, 'Irises', 'The painting is full of softness and lightness.', 1889, 8);
 
 insert into painting(painting_id, painting_title, p_description, painting_year, artist_id) values
-(24, 'Starry Night Over the Rhône', 'The sky is aquamarine, the water is royal blue.', 1888, 8);
+(24, 'Starry Night Over the RhÃ´ne', 'The sky is aquamarine, the water is royal blue.', 1888, 8);
 
 insert into painting(painting_id, painting_title, p_description, painting_year, artist_id) values
 (25, 'Self-portrait without beard', 'This may have been his last self-portrait.', 1889, 8);
